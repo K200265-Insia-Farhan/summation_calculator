@@ -1,0 +1,1 @@
+# summation_calculator
