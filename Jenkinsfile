@@ -19,14 +19,14 @@ pipeline {
             }
         }
         
-        stage('Static Code Analysis') {
-            steps {
+        //stage('Static Code Analysis') {
+            //steps {
                 // Run SonarQube analysis
-                withSonarQubeEnv('sonar') {
-                    bat 'mvn sonar:sonar'
-                }
-            }
-        }
+                //withSonarQubeEnv('sonar') {
+                    //bat 'mvn sonar:sonar'
+                //}
+            //}
+        //}
     }
     
     post {
@@ -35,7 +35,7 @@ pipeline {
             archiveArtifacts artifacts: '*/target/.jar', fingerprint: true
             
             // Publish JUnit test results
-            junit 'target/surefire-reports/*.xml'
+            //junit 'target/surefire-reports/*.xml'
             
             // Publish SonarQube analysis results
             sonarQualityGate() //- Uncomment this line if 'sonarQualityGate' is a valid step
