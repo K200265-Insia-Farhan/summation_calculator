@@ -3,10 +3,8 @@ pipeline {
     
     stages {
         stage('Checkout') {
-            steps {
-                // Checkout code from Git repository
-                git 'https://github.com/K200265-Insia-Farhan/summation_calculator'
-            }
+            // Checkout code from Git repository
+            git 'https://github.com/K200265-Insia-Farhan/summation_calculator'
         }
         
         stage('Build and Test') {
