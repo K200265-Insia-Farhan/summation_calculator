@@ -1,34 +1,26 @@
-import java.util.Scanner;
-
 public class sumCalculator {
-    public static String calculateSum(int a, int b) {
-        if (a <= 0 || b <= 0) {
+    public static String calculateSum(int firstValue, int secondValue,int testcaseid,int expectedValue) {
+
+       System.out.println("--------------------------------");
+       System.out.println("Test Case Id is: "+testcaseid);
+       System.out.println("First Number Passed: "+firstValue);
+       System.out.println("Second Number Passed is: "+secondValue);
+       System.out.println("Expected Result is: " +expectedValue);
+        if (firstValue <= 0 || secondValue <= 0) {
+            System.out.println("Validated Output is: Error");
             return "Error";
         }
-        int sum = a + b;
+        int sum = firstValue + secondValue;
         if (sum > 100) {
+            System.out.println("Validated Output is: "+sum);
             return String.valueOf(sum);
         } else if (sum == 100) {
-            return String.valueOf(a * b);
+            System.out.println("Validated Output is: "+sum);
+            return String.valueOf(firstValue * secondValue);
         } else {
-            return String.valueOf(Math.abs(a - b));
+            System.out.println("Validated Output is: "+sum);
+            return String.valueOf(Math.abs(firstValue - secondValue));
         }
     }
     
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        // Prompt the user to enter two positive integers
-        System.out.println("Enter the first integer: ");
-        int num1 = scanner.nextInt();
-
-        System.out.println("Enter the second integer: ");
-        int num2 = scanner.nextInt();
-
-        // Calculate the sum based on the input numbers
-        String result = calculateSum(num1, num2);
-        System.out.println("Result: " + result);
-
-        scanner.close();
-    }
 }
