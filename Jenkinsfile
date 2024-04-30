@@ -29,11 +29,4 @@ pipeline {
             }
         }  
     }
-
-    post {
-        always {
-            // Publish SonarQube analysis results to Jenkins interface
-            publishIssues issues:[sonarConsole()], enabledForFailure: true
-        }
-    }
 }
