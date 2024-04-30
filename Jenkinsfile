@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout code from Git repository
-                git branch: 'main', url: 'https://github.com/K200265-Insia-Farhan/summation_calculator.git'
+                git 'https://github.com/K200265-Insia-Farhan/summation_calculator'
             }
         }
         
