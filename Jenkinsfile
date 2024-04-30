@@ -12,10 +12,10 @@ pipeline {
         stage('Build and Test') {
             steps {
                 // Build the Java project using Maven
-                bat 'mvn clean package'
+                bat 'mvn clean compile'
                 
                 // Run JUnit tests
-                junit '*/target/surefire-reports/.xml'
+                junit '**/target/surefire-reports/*.xml'
             }
         }
     }
