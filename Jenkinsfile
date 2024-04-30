@@ -38,7 +38,7 @@ pipeline {
             //junit 'target/surefire-reports/*.xml'
             
             // Publish SonarQube analysis results
-            sonarQualityGate() //- Uncomment this line if 'sonarQualityGate' is a valid step
+            //sonarQualityGate() //- Uncomment this line if 'sonarQualityGate' is a valid step
         }
     }
 }
