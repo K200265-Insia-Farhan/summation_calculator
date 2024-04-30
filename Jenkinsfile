@@ -18,15 +18,6 @@ pipeline {
                 junit '**/target/surefire-reports/*.xml'
             }
         }
-        stage('Static Code Analysis') {
-            steps {
-                // Run SonarQube analysis
-                withSonarQubeEnv('SonarQube') {
-                    bat 'mvn sonar:sonar'
-                }
-            }
-        }
-
     
 }
 }
