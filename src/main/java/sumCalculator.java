@@ -27,7 +27,7 @@ public class sumCalculator {
 
         // Calculate the sum based on the input numbers
         String result = calculateSum(num1, num2);
-        System.out.println("Result: ",result);
+        System.out.println("Result: " + result);
 
         scanner.close();
     }
