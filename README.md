@@ -1,8 +1,22 @@
 # Jenkins CI Pipeline With Junit Testing And Static Code Analysis Using SonarQube
-Dependencies Installation Document Link: [https://drive.google.com/file/d/1HgUzP4LO1VxKRDjtGr1XM6xZH1x95JYT/view?usp=sharing] 
+Dependencies Installation Document Link: [https://drive.google.com/file/d/14UsuM7z7yRyXBySjF-3eABiLwrtoHBIH/view?usp=sharing] 
 ## Task Description :
 The task was to develop a CI pipeline using Jenkins for automated build and testing. Every time the pipeline is triggered, JUnit test cases are automatically executed to validate code functionality across diverse input scenarios. SonarQube was attached to assess code quality, identifying and rectifying any issues. 
-## 1. Configure JDK, Git and Maven:
+## 1. Sonarcube Plugin Download:
+![5](https://github.com/K200265-Insia-Farhan/summation_calculator/assets/145255205/8b889767-98e6-43ea-a71b-e86f67afa33b)
+![6](https://github.com/K200265-Insia-Farhan/summation_calculator/assets/145255205/6420c96a-54c2-4990-9eb1-04f3283607be)
+![7](https://github.com/K200265-Insia-Farhan/summation_calculator/assets/145255205/cee4e270-0578-43a1-b9ea-99a24b0685aa)
+## 2. Sonarqube Installation On Windows:
+![insattt](https://github.com/K200265-Insia-Farhan/summation_calculator/assets/145255205/947b18a2-ca9a-4f7a-90b7-690ee6635e00)
+![9](https://github.com/K200265-Insia-Farhan/summation_calculator/assets/145255205/62a207b7-d35c-4232-8033-40c87fb8ce79)
+![10](https://github.com/K200265-Insia-Farhan/summation_calculator/assets/145255205/f8e75006-6bdf-4438-85d7-946ddefeaf31)
+![11](https://github.com/K200265-Insia-Farhan/summation_calculator/assets/145255205/1b60ddc0-3ed5-447f-82fd-de77497b0701)
+![12](https://github.com/K200265-Insia-Farhan/summation_calculator/assets/145255205/18d8b2b9-ce5e-4147-9161-c7952be1a52a)
+## 3. Start SonarQube Service:
+![13](https://github.com/K200265-Insia-Farhan/summation_calculator/assets/145255205/c270de41-db0f-48ac-be29-85a136d5f170)
+## 4. Convert SonarQube Service into a Windows Service:
+![14](https://github.com/K200265-Insia-Farhan/summation_calculator/assets/145255205/94528a56-7fc5-4d0e-82e2-b9cf92bc7a93)
+## 5. Configure JDK, Git and Maven:
 ###  a. Install JDK, Git and Maven on Local Machine:
 First install  JDK, Git and Maven on local machine and set syytem enviroment variables.
 ###  b. Configure JDK, Git and Maven as tools in Jenkins:
@@ -10,20 +24,6 @@ First install  JDK, Git and Maven on local machine and set syytem enviroment var
 ![2](https://github.com/K200265-Insia-Farhan/summation_calculator/assets/145255205/00a8ac2a-6c3b-450e-8001-e51d7addab90)
 ![3](https://github.com/K200265-Insia-Farhan/summation_calculator/assets/145255205/1076625d-16b6-4f54-b27f-a376b295ac15)
 ![4](https://github.com/K200265-Insia-Farhan/summation_calculator/assets/145255205/4df49481-5f9e-478e-a646-6dfdbc007268)
-## 2. Sonarcube Plugin Download:
-![5](https://github.com/K200265-Insia-Farhan/summation_calculator/assets/145255205/8b889767-98e6-43ea-a71b-e86f67afa33b)
-![6](https://github.com/K200265-Insia-Farhan/summation_calculator/assets/145255205/6420c96a-54c2-4990-9eb1-04f3283607be)
-![7](https://github.com/K200265-Insia-Farhan/summation_calculator/assets/145255205/cee4e270-0578-43a1-b9ea-99a24b0685aa)
-## 3. Sonarqube Installation On Windows:
-![insattt](https://github.com/K200265-Insia-Farhan/summation_calculator/assets/145255205/947b18a2-ca9a-4f7a-90b7-690ee6635e00)
-![9](https://github.com/K200265-Insia-Farhan/summation_calculator/assets/145255205/62a207b7-d35c-4232-8033-40c87fb8ce79)
-![10](https://github.com/K200265-Insia-Farhan/summation_calculator/assets/145255205/f8e75006-6bdf-4438-85d7-946ddefeaf31)
-![11](https://github.com/K200265-Insia-Farhan/summation_calculator/assets/145255205/1b60ddc0-3ed5-447f-82fd-de77497b0701)
-![12](https://github.com/K200265-Insia-Farhan/summation_calculator/assets/145255205/18d8b2b9-ce5e-4147-9161-c7952be1a52a)
-## 4. Start SonarQube Service:
-![13](https://github.com/K200265-Insia-Farhan/summation_calculator/assets/145255205/c270de41-db0f-48ac-be29-85a136d5f170)
-## 5. Convert SonarQube Service into a Windows Service:
-![14](https://github.com/K200265-Insia-Farhan/summation_calculator/assets/145255205/94528a56-7fc5-4d0e-82e2-b9cf92bc7a93)
 ## 6. Configure SonarQube on Jenkins For Static Code Analysis:
 ![15](https://github.com/K200265-Insia-Farhan/summation_calculator/assets/145255205/550c92e4-3177-4868-83b2-fbad7d33a0f5)
 ![16](https://github.com/K200265-Insia-Farhan/summation_calculator/assets/145255205/d9a5fc51-838b-4d88-8be5-822ce15f0dae)
