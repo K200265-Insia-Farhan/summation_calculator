@@ -15,7 +15,7 @@ First install  JDK, Git and Maven on local machine and set syytem enviroment var
 ![6](https://github.com/K200265-Insia-Farhan/summation_calculator/assets/145255205/6420c96a-54c2-4990-9eb1-04f3283607be)
 ![7](https://github.com/K200265-Insia-Farhan/summation_calculator/assets/145255205/cee4e270-0578-43a1-b9ea-99a24b0685aa)
 ## 3. Sonarqube Installation On Windows:
-![8](https://github.com/K200265-Insia-Farhan/summation_calculator/assets/145255205/9a0864ad-2368-47cc-bc89-2d033e2cdc12)
+![insattt](https://github.com/K200265-Insia-Farhan/summation_calculator/assets/145255205/947b18a2-ca9a-4f7a-90b7-690ee6635e00)
 ![9](https://github.com/K200265-Insia-Farhan/summation_calculator/assets/145255205/62a207b7-d35c-4232-8033-40c87fb8ce79)
 ![10](https://github.com/K200265-Insia-Farhan/summation_calculator/assets/145255205/f8e75006-6bdf-4438-85d7-946ddefeaf31)
 ![11](https://github.com/K200265-Insia-Farhan/summation_calculator/assets/145255205/1b60ddc0-3ed5-447f-82fd-de77497b0701)
