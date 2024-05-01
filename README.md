@@ -1,5 +1,13 @@
 # Jenkins CI/CD Pipeline And Code Analysis Using SonarQube
 Dependencies Installation Document Link: [https://docs.google.com/document/d/1Yc98ju_Knj5h5E5oX2mXBAv7JYQxivBd4a6ke1EZ8Vg/edit?usp=sharing] 
+## Task Description :
+The task was to develop a CI pipeline using Jenkins for automated build and testing. Every time the pipeline is triggered, JUnit test cases are automatically executed to validate code functionality across diverse input scenarios. SonarQube was attached to assess code quality, identifying and rectifying any issues. 
+
+## 1.Add JDK, Git and Maven as tools In Jenkins:
+###  a. Install JDK, Git and Maven on Local Machine:
+First install  JDK, Git and Maven on local machine and set enviroment variables.
+###  b. Configure JDK, Git and Maven as tools in Jenkins:
+
 ## 1. Github Repository:
 [https://github.com/K200265-Insia-Farhan/summation_calculator.git]
 ![1](https://github.com/K200265-Insia-Farhan/summation_calculator/assets/145255205/3e6b8041-dff6-4527-bf3e-2d7a5d67aed1)
